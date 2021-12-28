@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         if imageIndex == 0{
             imageIndex = 6
         }
-        
         imgView.image = UIImage(named: String(imageIndex)+".png")
     }
     @IBAction func btnImageNext(_ sender: UIButton) {
